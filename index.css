@@ -260,11 +260,17 @@
 }
  
 @media(max-width: 767px) {
+  .home-container1 {
+    box-shadow: 5px 5px 10px 0px #000000;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+  }
   .home-container2 {
     width: 750px;
-    height: 980px;
+    height: 323px;
     opacity: 1;
     align-self: center;
+    flex-direction: row;
   }
   .home-image {
     opacity: 1;
@@ -279,6 +285,7 @@
     width: var(--dl-layout-size-large);
     height: var(--dl-layout-size-large);
     position: static;
+    align-self: flex-start;
   }
   .home-morebutton1 {
     width: var(--dl-layout-size-large);
@@ -297,6 +304,7 @@
     height: 687px;
     opacity: 1;
     align-self: center;
+    flex-direction: column;
   }
   .home-image {
     opacity: 1;
