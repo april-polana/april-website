@@ -400,6 +400,7 @@
   }
   .home-image {
     opacity: 1;
+    bottom: 600px;
     position: fixed;
     align-self: center;
   }
