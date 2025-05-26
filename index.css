@@ -400,6 +400,7 @@
   }
   .home-image {
     opacity: 1;
+    position: fixed;
     align-self: center;
   }
   .home-itchbutton1 {
