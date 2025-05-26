@@ -400,6 +400,7 @@
   }
   .home-image {
     opacity: 1;
+     bottom: 600px;
     align-self: center;
   }
   .home-itchbutton1 {
@@ -408,7 +409,7 @@
     right: 0px;
     width: var(--dl-layout-size-large);
     height: var(--dl-layout-size-large);
-    position: static;
+    position: fixed;
     align-self: center;
   }
   .home-steambutton1 {
@@ -416,19 +417,19 @@
     left: 0px;
     right: 0px;
     width: var(--dl-layout-size-large);
-    bottom: 0px;
+    bottom: 350px;
     height: var(--dl-layout-size-large);
-    position: static;
+    position: fixed;
     align-self: center;
   }
   .home-morebutton1 {
-    top: 0px;
+    top: 350px;
     left: 0px;
     right: 0px;
     width: var(--dl-layout-size-large);
     bottom: 0px;
     height: var(--dl-layout-size-large);
-    position: static;
+    position: fixed;
     align-self: center;
   }
   .home-main-pc {
@@ -438,7 +439,7 @@
     height: 412px;
     display: none;
     opacity: 0;
-    position: absolute;
+    position: relative;
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -462,7 +463,6 @@
   .home-itchbutton2 {
     top: 0px;
     width: var(--dl-layout-size-large);
-    bottom: 0px;
     height: var(--dl-layout-size-large);
   }
   .home-morebutton2 {
