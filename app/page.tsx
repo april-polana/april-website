@@ -20,7 +20,7 @@ const Home = () => (
           className="w-1/2 sm:w-1/3 lg:hidden"
         />
         <main className="flex flex-col items-center justify-center gap-8 sm:w-full sm:flex-row sm:gap-[8%] 2xl:gap-24">
-          <ImageLink href="https://steamcommunity.com/id/aprildev/">
+          <ImageLink href="https://store.steampowered.com/curator/45747339/">
             <Image alt="Steam" src="/steam.png" width={380} height={380} />
           </ImageLink>
           <ImageLink href="https://april-dev.itch.io/">
