@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "atelier polana",
-  description: "computer-type games",
+  description: "-v-",
 };
 
 export const viewport: Viewport = {
